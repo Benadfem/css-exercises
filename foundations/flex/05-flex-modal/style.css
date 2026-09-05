@@ -20,8 +20,36 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 24px;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom{
+  width: 60%;
+  display: flex;
+  gap: 8px;
+  margin-left: 57px;
+  margin-top: 24px;
+}
+.icon-merge{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.header{
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
 }
 
+.text{
+  font-size: 16px;
+  margin-left: 57px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
